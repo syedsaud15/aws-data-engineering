@@ -1,72 +1,56 @@
-# aws-data-engineering
-AWS Data Engineering Projects and Hands-on Labs
-# ☁️ AWS Data Engineering Projects
+# ☁️ AWS Data Engineering
 
-## 📖 Overview
+<p align="center">
 
-This repository contains my hands-on AWS Data Engineering practice, labs, notes, and projects completed during my learning journey.
+### Cloud Infrastructure → Data Services → Observability → Analytics
 
-## 🛠️ AWS Services Covered
+<br>
 
-- IAM
-- EC2
-- S3
-- VPC
-- RDS
-- Lambda
-- Glue
-- CloudWatch
-- IAM Roles
-- AWS CLI
+![AWS](https://img.shields.io/badge/AWS-Cloud%20Engineering-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![IAM](https://img.shields.io/badge/IAM-Security-DD344C?style=for-the-badge&logo=amazonaws&logoColor=white)
+![S3](https://img.shields.io/badge/S3-Storage-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![Glue](https://img.shields.io/badge/Glue-Data%20Integration-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Athena](https://img.shields.io/badge/Athena-Analytics-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Redshift](https://img.shields.io/badge/Redshift-Data%20Warehouse-8C4FFF?style=for-the-badge&logo=amazonredshift&logoColor=white)
+
+</p>
+
+> A structured AWS Data Engineering hands-on repository covering the cloud foundations required to design, operate, secure, monitor, and analyze modern data workloads.
 
 ---
 
-## 📂 Repository Structure
+# 🧭 What This Repository Is
+
+This repository is not a single application or isolated ETL pipeline.
+
+It is a **progressive AWS engineering environment** covering the services that form the foundation of cloud-based data platforms.
+
+The learning path moves through four architectural layers:
 
 ```text
-aws-data-engineering
-│
-├── Day-01-IAM
-├── Day-02-EC2
-├── Day-03-S3
-├── Day-04-VPC
-├── Day-05-RDS
-├── Day-06-Lambda
-├── Day-07-Glue
-├── Day-08-End-to-End-Project
-│
-├── screenshots
-└── README.md
-```
-
----
-
-## 🎯 Learning Outcomes
-
-- AWS Fundamentals
-- Cloud Infrastructure
-- Storage Solutions
-- Compute Services
-- Networking
-- Security
-- Serverless Computing
-- Data Engineering Concepts
-
----
-
-## 🚀 Future Enhancements
-
-- End-to-End AWS Data Pipeline
-- Snowflake Integration
-- Apache Airflow
-- dbt
-- Terraform
-- CI/CD
-Last updated for Pull Shark badge testing - July 2026.
----
-
-## 👨‍💻 Author
-
-**Syed Saud Alam**
-
-Aspiring Data Engineer
+┌─────────────────────────────────────────────────────────┐
+│                    CLOUD FOUNDATION                     │
+│                                                         │
+│   IAM → EC2 → VPC → RDS                                 │
+└───────────────────────────┬─────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────┐
+│                    DATA PLATFORM                        │
+│                                                         │
+│   S3 → Lambda → Glue                                    │
+└───────────────────────────┬─────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────┐
+│                 OBSERVABILITY & QUERY                   │
+│                                                         │
+│   CloudWatch → Athena                                   │
+└───────────────────────────┬─────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────┐
+│                    DATA WAREHOUSE                        │
+│                                                         │
+│                     Redshift                            │
+└─────────────────────────────────────────────────────────┘
